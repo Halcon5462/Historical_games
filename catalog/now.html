@@ -31,7 +31,8 @@
 <script>
     var images = document.getElementsByTagName('img'); 
     var titles = document.getElementsByTagName('tit');
-    var max=images[0].offsetHeight;
+    var max_h=images[0].offsetHeight;
+    var max_w=images[0].offsetWidth;
     for (var i=0; i<images.length; i++){
         
         if (images[i].parentElement.offsetWidth>images[i].offsetWidth){
@@ -40,10 +41,14 @@
             console.log(images[i].style.width)
             console.log(images[i].parentElement.offsetWidth)
         }
-        if (max<images[i].offsetHeight){
-            max=images[i].offsetHeight;
+        if (max_h<images[i].offsetHeight){
+            max_h=images[i].offsetHeight;
         }
-        images[i].style.height=max+"px";
+        if (max_w<images[i].offsetWidth){
+            max_w=images[i].offsetWidth;
+        }
+        images[i].style.height=max_h+"px";
+        images[i].style.width=max_w+"px";
 
     }
 </script>
