@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(110, 108, 108);
+    text-align: center;
+}
+header{
+    text-align: center;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    box-shadow: 5px 5px 10px black;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(88, 86, 86);
+    color: white;
+}
+main{
+    padding-top: 12% ;
+}
+main > div{
+    border-radius: 8px;
+    border: 4pt solid rgb(86, 86, 83);
+    background-color: rgb(152, 153, 150);
+    box-shadow: 10px 10px 10px;
+    display: inline-block;
+    margin-bottom: 5%;
+    margin-left: 7%;
+    padding-bottom: 1%;
+    text-align: center;
+    z-index: 300;
+    cursor: pointer;
+    font-size: larger;
+}
+#bac{
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 180px;
+    background-image: url(../img/bac.jpg);
+    background-size: contain;
+}

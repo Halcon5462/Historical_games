@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(110, 108, 108);
+    text-align: center;
+    background-image: url(../img/fon.png);
+    background-size: cover;
+}
+header{
+    text-align: center;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    box-shadow: 5px 5px 10px black;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(88, 86, 86);
+    color: white;
+}
+main{
+    padding-top: 10% ;
+}
+div{
+    padding: 1%;
+    margin: 2%;
+    border-radius: 5px;
+    border: black 2px solid;
+    backdrop-filter: blur(30px);
+    display: inline-block;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#des{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    bottom: 10%;
+    padding: 0.5%;
+    border-radius: 5px;
+    width: 30%;
+}
