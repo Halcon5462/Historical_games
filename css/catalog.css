@@ -46,16 +46,20 @@ main > div{
 #ancient{
     background-image: url(../img/ancient.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 #midle{
     background-image: url(../img/midle.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 #sev{
     background-image: url(../img/sev.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 #now{
     background-image: url(../img/now.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
