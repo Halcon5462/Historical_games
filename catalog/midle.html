@@ -13,18 +13,37 @@
         <h2>Средние века</h2>
     </header>
     <main>
-        <div id="hoi">
+        <div id="kcd">
             <img src="../img/kcd.jpg">
             <div class="tit">Kingdom Come: Deliverance</div>
         </div>
-        <div id="aoh">
+        <div id="crk">
             <img src="../img/crk.jpg">
             <div class="tit">Crusader Kings 3</div>
         </div>
-        <div id="vic">
+        <div id="acb">
             <img src="../img/acb.jpg">
             <div class="tit">Assassin's Creed IV</div>
         </div>
         <a href="../index.html"><div id="bac"></div></a>
     </main>
 </body>
+<script>
+    var images = document.getElementsByTagName('img'); 
+    var titles = document.getElementsByTagName('tit');
+    var max=images[0].offsetHeight;
+    for (var i=0; i<images.length; i++){
+        
+        if (images[i].parentElement.offsetWidth>images[i].offsetWidth){
+            images[i].style.width=images[i].parentElement.offsetWidth+"px";
+            
+            console.log(images[i].style.width)
+            console.log(images[i].parentElement.offsetWidth)
+        }
+        if (max<images[i].offsetHeight){
+            max=images[i].offsetHeight;
+        }
+        images[i].style.height=max+"px";
+
+    }
+</script>

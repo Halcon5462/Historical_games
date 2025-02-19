@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Now games</title>
 	<link rel="stylesheet" type="text/css" href="../css/catalog.css" >
-    <link rel="icon" type="image/x-icon" href="../img/historical_games.ico">
+    <link rel="icon" type="image/x-icon" href="../img/history.ico">
 </head>
 <body id="now">
     <header id="header">
@@ -28,3 +28,22 @@
         <a href="../index.html"><div id="bac"></div></a>
     </main>
 </body>
+<script>
+    var images = document.getElementsByTagName('img'); 
+    var titles = document.getElementsByTagName('tit');
+    var max=images[0].offsetHeight;
+    for (var i=0; i<images.length; i++){
+        
+        if (images[i].parentElement.offsetWidth>images[i].offsetWidth){
+            images[i].style.width=images[i].parentElement.offsetWidth+"px";
+            
+            console.log(images[i].style.width)
+            console.log(images[i].parentElement.offsetWidth)
+        }
+        if (max<images[i].offsetHeight){
+            max=images[i].offsetHeight;
+        }
+        images[i].style.height=max+"px";
+
+    }
+</script>
