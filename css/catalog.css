@@ -43,3 +43,19 @@ main > div{
     background-image: url(../img/bac.jpg);
     background-size: contain;
 }
+#ancient{
+    background-image: url(../img/ancient.png);
+    background-size: contain;
+}
+#midle{
+    background-image: url(../img/midle.png);
+    background-size: cover;
+}
+#sev{
+    background-image: url(../img/sev.png);
+    background-size: contain;
+}
+#now{
+    background-image: url(../img/now.png);
+    background-size: contain;
+}
