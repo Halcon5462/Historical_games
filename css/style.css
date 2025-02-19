@@ -16,6 +16,7 @@ header{
     z-index: 1000;
     background-color: rgb(88, 86, 86);
     color: white;
+    font-size: 1.2vw;
 }
 main{
     padding-top: 10% ;
@@ -27,7 +28,7 @@ div{
     border: black 2px solid;
     backdrop-filter: blur(30px);
     display: inline-block;
-    font-size: larger;
+    font-size: 1.6vw;
 }
 #now{
     background-color: rgb(236 126 93 / 47%);
@@ -40,7 +41,10 @@ a{
     display: inline-block;
     position: absolute;
     right: 0px;
-    bottom: 10%;
+    bottom: 5%;
     padding: 0.5%;
     width: 30%;
+}
+html{
+    font-family:Arial, Helvetica, sans-serif;
 }

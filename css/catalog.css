@@ -14,6 +14,7 @@ header{
     z-index: 1000;
     background-color: rgb(88, 86, 86);
     color: white;
+    font-size: 1.2vw;
 }
 main{
     padding-top: 12% ;
@@ -30,7 +31,7 @@ main > div{
     text-align: center;
     z-index: 300;
     cursor: pointer;
-    font-size: larger;
+    font-size: 1.6vw;
 }
 #bac{
     display: inline-block;
@@ -41,25 +42,24 @@ main > div{
     width: 50px;
     border-radius: 180px;
     background-image: url(../img/bac.jpg);
-    background-size: contain;
+    background-size: cover;
 }
 #ancient{
     background-image: url(../img/ancient.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 #midle{
     background-image: url(../img/midle.png);
     background-size: cover;
-    background-repeat: no-repeat;
 }
 #sev{
     background-image: url(../img/sev.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 #now{
     background-image: url(../img/now.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
+}
+html{
+    font-family:Arial, Helvetica, sans-serif;
 }
