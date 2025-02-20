@@ -10,20 +10,26 @@
 <body id="ancient">
     <header id="header">
         <h1>Исторические игры</h1>
-        <h2>XVII-XX века</h2>
+        <h2>Древность</h2>
     </header>
     <main>
         <div id="hoi">
+            <a href='../games/tws.html'>
             <img src="../img/tws.jpg">
             <div class="tit">Total War Saga: Troy</div>
+            </a>
         </div>
         <div id="aoh">
+            <a href='../games/twa.html'>
             <img src="../img/twa.jpg">
             <div class="tit">Total War: Attila</div>
+            </a>
         </div>
         <div id="vic">
+            <a href='../games/aoh.html'>
             <img src="../img/aoh.jpg">
             <div class="tit">Age of History 3</div>
+            </a>
         </div>
         <a href="../index.html"><div id="bac"></div></a>
     </main>
@@ -47,8 +53,9 @@
         if (max_w<images[i].offsetWidth){
             max_w=images[i].offsetWidth;
         }
+    }
+    for (var i=0; i<images.length; i++){
         images[i].style.height=max_h+"px";
         images[i].style.width=max_w+"px";
-
     }
 </script>

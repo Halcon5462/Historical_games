@@ -14,16 +14,22 @@
     </header>
     <main>
         <div id="hoi">
+            <a href='../games/rdr.html'>
             <img src="../img/rdr.jpg">
             <div class="tit">Red Dead Redemption 2</div>
+            </a>
         </div>
         <div id="aoh">
+            <a href='../games/acr.html'>
             <img src="../img/acr.jpg">
             <div class="tit">Assassins Creed 3</div>
+            </a>
         </div>
         <div id="vic">
+            <a href='../games/vic.html'>
             <img src="../img/vic.jpg">
             <div class="tit">Victoria 3</div>
+            </a>
         </div>
         <a href="../index.html"><div id="bac"></div></a>
     </main>
@@ -37,9 +43,6 @@
         
         if (images[i].parentElement.offsetWidth>images[i].offsetWidth){
             images[i].style.width=images[i].parentElement.offsetWidth+"px";
-            
-            console.log(images[i].style.width)
-            console.log(images[i].parentElement.offsetWidth)
         }
         if (max_h<images[i].offsetHeight){
             max_h=images[i].offsetHeight;
@@ -47,8 +50,9 @@
         if (max_w<images[i].offsetWidth){
             max_w=images[i].offsetWidth;
         }
+    }
+    for (var i=0; i<images.length; i++){
         images[i].style.height=max_h+"px";
         images[i].style.width=max_w+"px";
-
     }
 </script>

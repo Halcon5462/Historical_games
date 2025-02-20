@@ -14,16 +14,22 @@
     </header>
     <main>
         <div id="aoh">
+            <a href='../games/aoh.html'>
             <img src="../img/aoh.jpg">
             <div class="tit">Age of History 3</div>
+            </a>
         </div>
         <div id="hoi">
+            <a href='../games/hoi.html'>
             <img src="../img/hoi.jpg">
             <div class="tit">Hearts of Iron 4</div>
+            </a>
         </div>
         <div id="vic">
+            <a href='../games/cod.html'>
             <img src="../img/cod.jpg">
             <div class="tit">Call of Duty WWII</div>
+            </a>
         </div>
         <a href="../index.html"><div id="bac"></div></a>
     </main>
@@ -47,8 +53,9 @@
         if (max_w<images[i].offsetWidth){
             max_w=images[i].offsetWidth;
         }
+    }
+    for (var i=0; i<images.length; i++){
         images[i].style.height=max_h+"px";
         images[i].style.width=max_w+"px";
-
     }
 </script>
