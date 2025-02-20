@@ -29,6 +29,12 @@ div{
     backdrop-filter: blur(30px);
     display: inline-block;
     font-size: 1.6vw;
+    transition: 0.5s;
+    &:hover{
+        font-size: 2vw;
+        margin: 0.7%;
+        transition: 0.5s;
+    }
 }
 #now{
     background-color: rgb(236 126 93 / 47%);

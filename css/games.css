@@ -1,0 +1,136 @@
+.tws{
+    background-color: rgb(110, 108, 108);
+    text-align: center;
+    background-image: url(../img/tws-b.jpg);
+    background-size: cover;
+}
+.twa{
+    background-color: rgb(110, 108, 108);
+    text-align: center;
+    background-image: url(../img/twa-b.jpg);
+    background-size: cover;
+}
+.aoh{
+    background-color: rgb(110, 108, 108);
+    text-align: center;
+    background-image: url(../img/aoh-b.jpg);
+    background-size: cover;
+}
+.kcd{
+    background-color: rgb(110, 108, 108);
+    text-align: center;
+    background-image: url(../img/kcd-b.jpg);
+    background-size: cover;
+}
+.crk{
+    background-color: rgb(110, 108, 108);
+    text-align: center;
+    background-image: url(../img/crk-b.jpg);
+    background-size: cover;
+}
+.acb{
+    background-color: rgb(110, 108, 108);
+    text-align: center;
+    background-image: url(../img/acb-b.jpg);
+    background-size: cover;
+}
+.rdr{
+    background-color: rgb(110, 108, 108);
+    text-align: center;
+    background-image: url(../img/rdr-b.jpg);
+    background-size: cover;
+}
+.vic{
+    background-color: rgb(110, 108, 108);
+    text-align: center;
+    background-image: url(../img/vic-b.jpg);
+    background-size: cover;
+}
+.acr{
+    background-color: rgb(110, 108, 108);
+    text-align: center;
+    background-image: url(../img/acr-b.jpg);
+    background-size: cover;
+}
+.hoi{
+    background-color: rgb(110, 108, 108);
+    text-align: center;
+    background-image: url(../img/hoi-b.jpg);
+    background-size: cover;
+}
+.cod{
+    background-color: rgb(110, 108, 108);
+    text-align: center;
+    background-image: url(../img/cod-b.jpg);
+    background-size: cover;
+}
+header{
+    text-align: center;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    box-shadow: 5px 5px 10px black;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(88, 86, 86);
+    color: white;
+    font-size: 1.2vw;
+}
+main{
+    padding-top: 10% ;
+}
+html{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(216, 209, 209);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#bac{
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 180px;
+    background-image: url(../img/bac.jpg);
+    background-size: cover;
+}
+.text{
+    padding: 1%;
+    margin: 2%;
+    border-radius: 10px;
+    border: black 2px solid;
+    backdrop-filter: blur(30px);
+    display: inline-block;
+    font-size: 1.7vw;
+    width: 32%;
+    vertical-align: top;
+}
+.oth{
+    display: inline-block;
+    margin: 2%;
+    margin-left: 5%;
+    vertical-align: top;
+    width: 50%;
+    padding: 0px;
+}
+img{
+    border-radius: 30px;
+    border: 2px black solid;
+    height: 50%;
+    width: 80%;
+}
+.oth > div{
+    padding: 1%;
+    margin: 2%;
+    border-radius: 10px;
+    border: black 2px solid;
+    backdrop-filter: blur(20px);
+    display: inline-block;
+    font-size: 2vw;
+}
