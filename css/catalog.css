@@ -52,19 +52,19 @@ a{
 @media only screen and (max-width: 480px){
     #ancient{
         background-image: url(../img/ancient-ph.jpg);
-        background-size: auto;
+        background-size: cover;
     }
     #midle{
         background-image: url(../img/midle-ph.jpg);
-        background-size: auto;
+        background-size: cover;
     }
     #sev{
         background-image: url(../img/sev-ph.jpg);
-        background-size: auto;
+        background-size: cover;
     }
     #now{
         background-image: url(../img/now-ph.jpg);
-        background-size: auto;
+        background-size: cover;
     }
     header{
         font-size: 3vw;
