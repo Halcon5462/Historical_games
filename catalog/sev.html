@@ -36,13 +36,12 @@
 </body>
 <script>
     var images = document.getElementsByTagName('img'); 
-    var titles = document.getElementsByTagName('tit');
     var max_h=images[0].offsetHeight;
     var max_w=images[0].offsetWidth;
     for (var i=0; i<images.length; i++){
         
         if (images[i].parentElement.offsetWidth>images[i].offsetWidth){
-            images[i].style.width=images[i].parentElement.offsetWidth+"px";
+            images[i].style.width=images[i].nextElementSibling.offsetWidth+"px";
         }
         if (max_h<images[i].offsetHeight){
             max_h=images[i].offsetHeight;
