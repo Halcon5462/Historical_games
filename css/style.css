@@ -23,12 +23,10 @@ div{
     border-radius: 10px;
     border: black 2px solid;
     backdrop-filter: blur(30px);
-    display: inline-block;
+    
     transition: 0.5s;
 }
-#now{
-    background-color: rgb(236 126 93 / 47%);
-}
+
 a{
     text-decoration: none;
     color: black;
@@ -46,17 +44,30 @@ html{
         font-size: 3vw;
     }
     div{
-        padding: 1%;
+        padding: 1.7%;
         margin: 2%;
-        font-size: 1.6vw;
-        &:hover{
-            font-size: 2vw;
-            margin: 0.7%;
+        margin-top: 4%;
+        margin-left: 4%;
+        font-size: 4vw;
+        display: block;
+        width: 30%;
+        &:active{
+            border: rgb(59, 59, 59) 2px solid;
             transition: 0.5s;
         }
     }
+    #des{
+        display: inline-block;
+        position: absolute;
+        right: auto;
+        top:14%;
+        width: 40%;
+        margin-left: 0;
+        
+    }
     main{
-        padding-top: 30% ;
+        padding-top: 30%;
+        
     }
 }
 @media only screen and (min-width: 481px){
@@ -71,11 +82,15 @@ html{
         padding: 1%;
         margin: 2%;
         font-size: 1.6vw;
+        display: inline-block;
         &:hover{
             font-size: 2vw;
             margin: 0.7%;
             transition: 0.5s;
         }
+    }
+    #now{
+        background-color: rgb(236 126 93 / 47%);
     }
     #des{
         display: inline-block;
