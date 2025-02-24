@@ -49,6 +49,7 @@ html{
         font-size: 4vw;
         display: block;
         width: 30%;
+        min-width: auto;
         &:active{
             border: rgb(59, 59, 59) 2px solid;
             transition: 0.5s;
@@ -61,7 +62,7 @@ html{
         top:14%;
         width: 40%;
         margin-left: 0;
-        font-size: 3.2vw;
+        font-size: 3.4vw;
         padding: 1.4%;
         
         
