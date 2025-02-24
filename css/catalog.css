@@ -16,9 +16,7 @@ header{
     color: white;
     font-size: 1.2vw;
 }
-main{
-    padding-top: 12% ;
-}
+
 main > div{
     border-radius: 8px;
     border: 4pt solid rgb(86, 86, 83);
@@ -31,7 +29,6 @@ main > div{
     text-align: center;
     z-index: 300;
     cursor: pointer;
-    font-size: 1.6vw;
 }
 #bac{
     display: inline-block;
@@ -44,26 +41,70 @@ main > div{
     background-image: url(../img/bac.jpg);
     background-size: cover;
 }
-#ancient{
-    background-image: url(../img/ancient.png);
-    background-size: cover;
-}
-#midle{
-    background-image: url(../img/midle.png);
-    background-size: cover;
-}
-#sev{
-    background-image: url(../img/sev.png);
-    background-size: cover;
-}
-#now{
-    background-image: url(../img/now.png);
-    background-size: cover;
-}
+
 html{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Andale Mono, monospace;
 }
 a{
     text-decoration: none;
     color: black;
+}
+@media only screen and (max-width: 480px){
+    #ancient{
+        background-image: url(../img/ancient-ph.jpg);
+        background-attachment: fixed;
+        background-size: auto;
+    }
+    #midle{
+        background-image: url(../img/midle-ph.jpg);
+        background-attachment: fixed;
+        background-size: auto;
+    }
+    #sev{
+        background-image: url(../img/sev-ph.jpg);
+        background-attachment: fixed;
+        background-size: auto;
+    }
+    #now{
+        background-image: url(../img/now-ph.jpg);
+        background-attachment: fixed;
+        background-size: auto;
+    }
+    header{
+        font-size: 3vw;
+    }
+    main{
+        padding-top: 30%;
+        
+    }
+    main > div{
+        font-size: 5vw;
+    }
+}
+@media only screen and (min-width: 481px){
+    #ancient{
+        background-image: url(../img/ancient.png);
+        background-size: cover;
+    }
+    #midle{
+        background-image: url(../img/midle.png);
+        background-size: cover;
+    }
+    #sev{
+        background-image: url(../img/sev.png);
+        background-size: cover;
+    }
+    #now{
+        background-image: url(../img/now.png);
+        background-size: cover;
+    }
+    header{
+        font-size: 1.2vw;
+    }
+    main{
+        padding-top: 12% ;
+    }
+    main > div{
+        font-size: 1.6vw;
+    }
 }
