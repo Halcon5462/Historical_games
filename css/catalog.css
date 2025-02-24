@@ -52,26 +52,18 @@ a{
 @media only screen and (max-width: 480px){
     #ancient{
         background-image: url(../img/ancient-ph.jpg);
-        background-position: center;
-        background-attachment: fixed;
         background-size: auto;
     }
     #midle{
         background-image: url(../img/midle-ph.jpg);
-        background-position: center;
-        background-attachment: fixed;
         background-size: auto;
     }
     #sev{
         background-image: url(../img/sev-ph.jpg);
-        background-position: center;
-        background-attachment: fixed;
         background-size: auto;
     }
     #now{
         background-image: url(../img/now-ph.jpg);
-        background-position: center;
-        background-attachment: fixed;
         background-size: auto;
     }
     header{
