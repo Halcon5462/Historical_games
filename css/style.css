@@ -48,8 +48,7 @@ html{
         margin-left: 4%;
         font-size: 4vw;
         display: block;
-        width: 30%;
-        min-width: auto;
+        width: 31%;
         &:active{
             border: rgb(59, 59, 59) 2px solid;
             transition: 0.5s;
