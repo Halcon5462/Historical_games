@@ -16,9 +16,6 @@ header{
     background-color: rgb(88, 86, 86);
     color: white;
 }
-#black{
-    color: black;
-}
 html{
     font-family:Andale Mono, monospace;
     color: rgb(216, 209, 209);
@@ -127,6 +124,9 @@ img{
     .oth{
         display: block;
         margin: 0px;
+    }
+    #black{
+        color: black;
     }
 }
 @media only screen and (min-width: 481px){
