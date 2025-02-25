@@ -21,8 +21,7 @@ html{
     color: rgb(216, 209, 209);
 }
 a{
-    text-decoration: none;
-    color: black;
+    color: white;
 }
 #bac{
     display: inline-block;
@@ -117,8 +116,8 @@ img{
     .oth > div{
         display: block;
         font-size: 4vw;
-        width: 60%;
-        margin-left: 20%;
+        width: 70%;
+        margin-left: 15%;
         padding: 2%;
     }
     .oth{
@@ -127,6 +126,13 @@ img{
     }
     #black{
         color: black;
+    }
+    .black{
+        color: black;
+    }
+    #dem{
+        font-size: 3.5vw;
+        text-align: left;
     }
 }
 @media only screen and (min-width: 481px){
@@ -205,5 +211,12 @@ img{
         vertical-align: top;
         width: 50%;
         padding: 0px;
+    }
+    #dem{
+        font-size: 1.5vw;
+        text-align: left;
+    }
+    .black-c{
+        color: rgb(28, 26, 26);
     }
 }
